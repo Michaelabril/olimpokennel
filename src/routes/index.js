@@ -3,7 +3,7 @@ const router = express.Router();
 const nodemailer = require('nodemailer')
 //route view page path
 router.get('/', (req, res) => {
-    res.render('index.html', { title: 'ConstructoraMA' });
+    res.render('index.html', { title: 'Olimpo kennel' });
 });
 
 //route view contact page
