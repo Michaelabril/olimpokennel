@@ -35,7 +35,7 @@ nav ul li a:hover{
 }
 
 .section_fixed{
-    transform: translateY(-100px);
+    transform: translateY(-20px);
     background: white
 }
 
