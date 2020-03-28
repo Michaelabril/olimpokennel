@@ -27,7 +27,8 @@ nav ul li a:hover{
 }
 
 .bg-info{
-    background: rgb(8, 8, 8) !important
+    background: rgb(8, 8, 8) !important;
+    color: goldenrod
 }
 
 .btnnavbar {
