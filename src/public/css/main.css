@@ -10,6 +10,14 @@ body{
     margin: auto 
 }
 
+.fondoejemplares{
+    background-image: url("https://66.media.tumblr.com/429a5c6cbfac9ac50fe7f4ed033280b8/tumblr_p9ittmO5lK1wywghco4_400.jpg");
+    height: 500px;
+    display: block;
+    margin: auto 
+}
+
+
 nav{
     font-size: 18px;
     background: rgb(87, 82, 82)

@@ -15,8 +15,21 @@ router.get('/contact', (req, res) => {
 router.get('/services', (req, res) => {
     res.render('services.html');
 });
+
 router.get('/proyectos', (req, res) => {
     res.render('proyectos.html');
+});
+
+router.get('/machos', (req, res) => {
+    res.render('machos.html');
+});
+
+router.get('/hembras', (req, res) => {
+    res.render('hembras.html');
+});
+
+router.get('/camadas', (req, res) => {
+    res.render('camadas.html');
 });
 
 router.get('/about', (req, res) => {
