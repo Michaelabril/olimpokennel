@@ -17,44 +17,99 @@
         </div>
         <!--section exposiciones-->
 
-        <div class="row row-cols-1 row-cols-md-2">
-                <div class="col mb-4">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Expo 1</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col mb-4">
-                  <div class="card">
-                    <img src="images/sliderolimpo1.jpg" class="card-img-top" alt="imagen1.">
-                    <div class="card-body">
-                      <h5 class="card-title">Expo 2</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col mb-4">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Expo 3</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col mb-4">
-                  <div class="card">
-                    <img src="images/sliderolimpo2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Expo 4</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
+        <div class="row mt-3">
+          <div class="col-md-3">
+              <div class="nav flex-column nav-pills text-center m-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="font-family: 'Times New Roman', Times, serif;">
+                  <a class="nav-link bg-info text-white text-center" id="v-pills-iniciados-tab" data-toggle="pill" href="#v-pills-expo1" role="tab" aria-controls="v-pills-expo1" aria-selected="true"><h4><strong>Exposicion 1</strong></h4></a>
+                  <a class="nav-link active text-white bg-info mt-3" id="v-pills-terminados-tab" data-toggle="pill" href="#v-pills-expo2" role="tab" aria-controls="v-pills-expo2" aria-selected="false"><h4><strong>Exposicion 2</strong></h4></a>
+                  <a class="nav-link bg-info text-white mt-3" id="v-pills-prueba-tab" data-toggle="pill" href="#v-pills-expo3" role="tab" aria-controls="v-pills-expo3" aria-selected="true"><h4><strong>Exposicion 3</strong></h4></a>
               </div>
+          </div>
+          <div class="col-md-9">
+              <div class="tab-content m-3" id="v-pills-tabContent">
+                  <div class="tab-pane fade" id="v-pills-expo1" role="tabpanel" aria-labelledby="v-pills-iniciados-tab">
+                      <div class="row add-vertical-spacing">
+                          <div class="col-lg-4 col-md-4">
+                              <img src="images/justpetgrooming.png" alt="">
+                          </div>
+
+                          <div class="col-lg-8 col-md-8 col-sm-8">
+                              <h2 class="text-center">
+                                  <strong>Exposicion 1</strong>
+                              </h2>
+                              <br>
+                              <p>En Just Pets Grooming siempre informamos a nuestros clientes sobre en qué consiste, el por qué se debe hacer y el por qué es un trabajo más costoso.</p>
+                          </div>
+                      </div>                           
+                  </div>
+
+                  <div class="tab-pane fade" id="v-pills-expo2" role="tabpanel" aria-labelledby="v-pills-prueba-tab">
+                      <div class="row add-vertical-spacing">
+                          <div class="col-lg-4 col-md-4 mt-5">
+                              <img src="images/horus.jpg" alt="" width="100%">
+                          </div>
+
+                          <div class="col-lg-8 col-md-8 col-sm-8">
+                              <h2 class="text-center">
+                                  <strong>Exposicion 2</strong>
+                              </h2> 
+                              <br>
+                              <p>
+                                  Nuestra cría se basa en las mejores líneas de sangre en Psnama y se programan y seleccionan cruces.
+                                  Nuestros perros tienen un control veterinario permanente y reciben las mejores raciones del mercado, lo que les proporciona todas las condiciones que necesitan para tener un buen desarrollo y una vida saludable.
+                                  Nuestro objetivo es producir Pit Bulls cada vez más ideales, con excelente estructura, temperamento apropiado, agilidad y carisma.
+                              </p>
+                          </div>
+                      </div> 
+                  </div>
+
+                  <div class="tab-pane fade show active" id="v-pills-expo3" role="tabpanel" aria-labelledby="v-pills-terminados-tab">
+                      <div class="row add-vertical-spacing">
+                        <h2><strong class="text-center" style="font-family: 'Times New Roman', Times, serif;">competencia destacadas</strong></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium error, architecto itaque laborum eum, saepe distinctio eos ducimus officiis qui libero harum a possimus. Voluptatibus quia cum optio necessitatibus.</p>
+                        <div class="row row-cols-1 row-cols-md-2 container">
+                          <div class="col mb-4 col-md-6">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Expo 1</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-4 col-md-6">
+                            <div class="card">
+                              <img src="images/sliderolimpo1.jpg" class="card-img-top" alt="imagen1.">
+                              <div class="card-body">
+                                <h5 class="card-title">Expo 2</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-4 col-md-6">
+                            <div class="card">
+                              <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Expo 3</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-4 col-md-6">
+                            <div class="card">
+                              <img src="images/sliderolimpo2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Expo 4</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+                      </div>    
+                  </div>
+          </div>
+      </div>
+      </div>
         
         <% include partials/footer.html %>
 </body>
