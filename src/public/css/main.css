@@ -36,11 +36,11 @@ nav ul li a:hover{
 
 .bg-info{
     background: rgb(8, 8, 8) !important;
-    color: goldenrod
 }
 
 .btnnavbar {
-    background-color: rgb(35, 120, 182) 
+    background-color:darkgray;
+    font-size: 40px;
 }
 
 .section_fixed{
@@ -56,7 +56,6 @@ nav ul li a:hover{
 .srv_cards{
     transform: translateY(-100px);
     background: white;
-    border-radius: 30px;
     padding: 20px
 }
 
