@@ -2,14 +2,6 @@ body{
     margin: 0;
     padding: 0%
 }
-
-.fondotop {
-    background-image: url("https://www.arquired.com.mx/wp-content/uploads/2016/09/pulsoinmobiliariotm.jpg");
-    height: 500px;
-    display: block;
-    margin: auto 
-}
-
 .fondoejemplares{
     background-image: url("https://66.media.tumblr.com/429a5c6cbfac9ac50fe7f4ed033280b8/tumblr_p9ittmO5lK1wywghco4_400.jpg");
     height: 500px;
@@ -25,9 +17,10 @@ nav{
 nav ul li a:hover{
     text-align: center;
     transition: 1s;
-    font-size: 20px;
+    background-color: darkgoldenrod;
+    color: black !important;
+   
 }
-
 .icon_redes_sociales p a i:hover{
     transition: 1s;
     font-size: 20px;
