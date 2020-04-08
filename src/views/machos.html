@@ -17,7 +17,7 @@
         <div class="container">
             <h2 class="text-center" style="font-family: 'Times New Roman', Times, serif;"><strong>Nuestros Machos</strong></h2>
             <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ducimus quaerat porro quae illo eius quidem et a iste qui repellat tenetur similique, ipsam, vitae ex ratione deserunt iure aut.</p>
-            <div class="row">
+            <div class="content row">
                 <div class="col-lg-12 col-md-6 mt-3">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-4 mt-3">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-4 mt-3">
                             <h4 class="text-align-left text-color-lightgray font-style-italic"><strong>FOTOS</strong></h4>
-                            <div class="row content" >
+                            <div class="row" >
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
@@ -68,8 +68,7 @@
                         </div>
                     </div>
                 </div>
-                
-                
+
                 <div class="col-lg-12 col-md-6 mt-3">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-4 mt-3">
@@ -88,7 +87,7 @@
                                 <a href="#" class="btn" style="font-size: larger;"><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a>
                             </div> 
                         </div>
-                        <div class="content col-lg-4 col-md-6 col-sm-4 mt-3">
+                        <div class="col-lg-4 col-md-6 col-sm-4 mt-3">
                             <h4 class="text-align-left text-color-lightgray font-style-italic"><strong>FOTOS</strong></h4>
                             <div class="row" >
                                 <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
@@ -120,20 +119,20 @@
                     </div>
                 </div>
 
-                <a id="verimagenes" class='fresco' data-fresco-group='grupo'></a>
-                <script>
-                    $(document).ready(function(){
-                    //Al hacer clic en cualquier img ejecutamos la acción
-                    $('.content img').click(function() {
-	                //Capturamos el src de la img
-	                var postimg= $(this).attr('src');
-	                //Agregamos el src a una href simbólico
-	                $('#verimagenes').attr('href',postimg);
-	                //Hacemos clic en el enlace para activar el visor
-        	        $('#verimagenes').click();
-                            });});
-                </script>
             </div>
+            <a id="verimagenes" class='fresco' data-fresco-group='grupo'></a>
+            <script>
+                $(document).ready(function(){
+                //Al hacer clic en cualquier img ejecutamos la acción
+                $('.content img').click(function() {
+                //Capturamos el src de la img
+                var postimg= $(this).attr('src');
+                //Agregamos el src a una href simbólico
+                $('#verimagenes').attr('href',postimg);
+                //Hacemos clic en el enlace para activar el visor
+                $('#verimagenes').click();
+                        });});
+            </script>
         </div>
     </section>
     <% include partials/footer.html %>
