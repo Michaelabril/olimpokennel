@@ -19,7 +19,14 @@ nav ul li a:hover{
     transition: 1s;
     background-color: darkgoldenrod;
     color: black !important;
+    border-color: black 5px solid !important;
    
+}
+
+.dropdown a:hover{
+    text-align: center;
+    transition: 1s;
+    background-color: darkgoldenrod;
 }
 .icon_redes_sociales p a i:hover{
     transition: 1s;

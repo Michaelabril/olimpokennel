@@ -2,143 +2,233 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device=width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Olimpo kennel</title>
-    <% include partials/head.html %>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Olimpo kennel</title>
+	<% include partials/head.html %>
 </head>
 <body>
-    <% include partials/navigation.html %>
-    <!--SECTION TOP IMAGEN-->
-    <br><br><br>
-    <img src="/images/horus.jpg" alt="img services" width="100%" height="500px">
-    <section class="container srv_cards mt-3">
-        <div class="container">
-            <h2 class="text-center" style="font-family: 'Times New Roman', Times, serif;"><strong>Nuestras Camadas</strong></h2>
-            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ducimus quaerat porro quae illo eius quidem et a iste qui repellat tenetur similique, ipsam, vitae ex ratione deserunt iure aut.</p>
-            <div class="row">
-                <div class="content col-lg-6 col-md-6 mt-3">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-4">
-                            <img src="/images/atlas.jpg" alt="horus Macho" width="100%" height="300px">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-8">
-                            <div class="col-md-6 col-sm-6 ml-3 mt-3">
-                                <h5 class="main-title">Atlas del Olimpo</h5>
-                                <h6>Macho</h6>
-                                <h6>Gran champion Panama</h6>
-                                <p>competencia en panama</p>
-                                <a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
+	<% include partials/navigation.html %>
+	<!--SECTION TOP IMAGEN-->
+	<br><br><br>
+	<img src="/images/horus.jpg" alt="img services" width="100%" height="500px">
 
-                <div class="content col-lg-6 col-md-6 mt-3">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-4">
-                            <img src="/images/spartanus.jpg" alt="horus Macho" width="100%" height="300px">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-8">
-                            <div class="col-md-6 col-sm-6 ml-3 mt-3">
-                                <h5 class="main-title">Spartanus del Olimpo</h5>
-                                <h6>Hembra</h6>
-                                <h6>Gran champion Panama</h6>
-                                <p>competencia en panama</p>
-                                <a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+	<div class="row mt-3">
+		<div class="col-md-3">
+			<div class="nav flex-column nav-pills text-center m-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="font-family: 'Times New Roman', Times, serif;">
+				<a class="nav-link bg-info text-white text-center" id="v-pills-iniciados-tab" data-toggle="pill" href="#v-pills-expo1" role="tab" aria-controls="v-pills-expo1" aria-selected="true"><h4><strong>Perros Disponibles</strong></h4></a>
+				<a class="nav-link active text-white bg-info mt-3" id="v-pills-terminados-tab" data-toggle="pill" href="#v-pills-expo2" role="tab" aria-controls="v-pills-expo2" aria-selected="false"><h4><strong>Camadas Disponibles</strong></h4></a>
+			</div>
+		</div>
+	
+		<div class="col-md-9">
+			<div class="tab-content m-3" id="v-pills-tabContent">
+				<div class="tab-pane fade show active" id="v-pills-expo1" role="tabpanel" aria-labelledby="v-pills-iniciados-tab">
+						<div class="container row">
+						  <h2 class="container text-center"><strong style="font-style: italic;">Perros Disponibles</strong></h2>
+						  <p class="text-justify mt-3 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium error, architecto itaque laborum eum, saepe distinctio eos ducimus officiis qui libero harum a possimus. Voluptatibus quia cum optio necessitatibus.</p>
+						  <div class="content row card_index ml-auto">
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/atlas.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Atlas del Olimpo</h5>
+											<h6>Macho</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5>
+										</div> 
+									</div>
+								</div>
+							</div>
+							
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/spartanus.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Spartanus del Olimpo</h5>
+											<h6>Hembra</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/tartaro.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Tartaro del Olimpo</h5>
+											<h6>Hembra</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/ares.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Ares del Olimpo</h5>
+											<h6>Macho</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+			
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/typhon.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Typhon del Olimpo</h5>
+											<h6>Macho</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
 
-                <div class="content col-lg-6 col-md-6 mt-3">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-4">
-                            <img src="/images/tartaro.jpg" alt="horus Macho" width="100%" height="300px">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-8">
-                            <div class="col-md-6 col-sm-6 ml-3 mt-3">
-                                <h5 class="main-title">Tartaro del Olimpo</h5>
-                                <h6>Hembra</h6>
-                                <h6>Gran champion Panama</h6>
-                                <p>competencia en panama</p>
-                                <a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+							
 
-                <div class="content col-lg-6 col-md-6 mt-3">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-4">
-                            <img src="/images/ares.jpg" alt="horus Macho" width="100%" height="300px">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-8">
-                            <div class="col-md-6 col-sm-6 ml-3 mt-3">
-                                <h5 class="main-title">Ares del Olimpo</h5>
-                                <h6>Macho</h6>
-                                <h6>Gran champion Panama</h6>
-                                <p>competencia en panama</p>
-                                <a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+						  </div>
+						</div>                            
+				</div>
+	
+				<div class="tab-pane fade" id="v-pills-expo2" role="tabpanel" aria-labelledby="v-pills-prueba-tab">
+						<div class="container row">
+						  <h2 class="container text-center"><strong style="font-style: italic;">Camadas Disponibles</strong></h2>
+						  <p class="text-justify mt-3 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium error, architecto itaque laborum eum, saepe distinctio eos ducimus officiis qui libero harum a possimus. Voluptatibus quia cum optio necessitatibus.</p>
+						  <div class="content row card_index ml-auto">
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/atlas.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Atlas del Olimpo</h5>
+											<h6>Macho</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5>
+										</div> 
+									</div>
+								</div>
+							</div>
+							
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/spartanus.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Spartanus del Olimpo</h5>
+											<h6>Hembra</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/tartaro.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Tartaro del Olimpo</h5>
+											<h6>Hembra</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/ares.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Ares del Olimpo</h5>
+											<h6>Macho</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+			
+							<div class=" col-lg-6 col-md-6 mt-3">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-4">
+										<img src="/images/typhon.jpg" alt="horus Macho" width="100%" height="300px">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-8">
+										<div class="col-md-6 col-sm-6 ml-3 mt-3">
+											<h5 class="main-title">Typhon del Olimpo</h5>
+											<h6>Macho</h6>
+											<h6>Gran champion Panama</h6>
+											<p>competencia en panama</p>
+											<a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
+										</div>
+									</div>
+								</div>
+							</div>
+						  </div>
+						</div>  
+				</div>
 
-                <div class="content col-lg-6 col-md-6 mt-3">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-4">
-                            <img src="/images/typhon.jpg" alt="horus Macho" width="100%" height="300px">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-8">
-                            <div class="col-md-6 col-sm-6 ml-3 mt-3">
-                                <h5 class="main-title">Typhon del Olimpo</h5>
-                                <h6>Macho</h6>
-                                <h6>Gran champion Panama</h6>
-                                <p>competencia en panama</p>
-                                <a href="#" class="btn "><h5><strong>Pedigree </strong><i class="fa fa-angle-double-right"></i></a></h5> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <a id="verimagenes" class='fresco' data-fresco-group='grupo'></a>
-                <script>
-                    $(document).ready(function(){
-                    //Al hacer clic en cualquier img ejecutamos la acción
-                    $('.content img').click(function() {
-	                //Capturamos el src de la img
-	                var postimg= $(this).attr('src');
-	                //Agregamos el src a una href simbólico
-	                $('#verimagenes').attr('href',postimg);
-	                //Hacemos clic en el enlace para activar el visor
-        	        $('#verimagenes').click();
-                            });});
-                </script>
-            </div>
-        </div>
+				<a id="verimagenes" class='fresco' data-fresco-group='grupo'></a>
+							<script>
+					$(document).ready(function(){
+					//Al hacer clic en cualquier img ejecutamos la acción
+					$('.content img').click(function() {
+					//Capturamos el src de la img
+					var postimg= $(this).attr('src');
+					//Agregamos el src a una href simbólico
+					$('#verimagenes').attr('href',postimg);
+					//Hacemos clic en el enlace para activar el visor
+					$('#verimagenes').click();
+							});});
+							</script>
+			</div>  
+		</div>
+	</div>
 
-        <div class="container mt-5">
-            <h2 class="text-center"> Camadas Disponibles</h2>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 mt-3">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <img src="/images/horus.jpg" alt="horus Macho" width="100%" height="100%">
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-8">
-                                <img src="/images/x.png" alt="" width="100%">
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <img src="/images/troya.jpg" alt="horus Macho" width="100%" height="100%">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section >
-    
-    <% include partials/footer.html %>
+	<% include partials/footer.html %>
 </body>
