@@ -24,6 +24,10 @@ nav ul li a:hover{
    
 }
 
+.icon_redes_sociales p a i:hover{
+    color: darkgoldenrod !important;
+}
+
 .dropdown a:hover{
     text-align: center;
     transition: 1s;
@@ -39,15 +43,9 @@ nav ul li a:hover{
     font-size: 40px;
 }
 
-.section_fixed{
-    transform: translateY(-20px);
-    background: white
-}
-
 .card_index .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px darkgoldenrod;
-
 }
 
 .prueba a:hover{
@@ -55,6 +53,8 @@ nav ul li a:hover{
     transition: 1s;
     background-color: darkgoldenrod !important;
     color: black !important;
+    font-weight: bold
+    
 }
 
 .srv_cards{
